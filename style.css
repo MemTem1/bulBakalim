@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    background:linear-gradient(to left ,#ff0600 , #1100ff);
+    align-items: center;
+}
+.content{
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    background-color: #000000;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+
+}
+.inputs{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    
+}
+.inputs :first-child{
+    width: 70%;
+    height: 30px;
+    outline: none;
+    border: none;
+    color: black;
+    padding: 0 10px ;
+    border-radius: 10px 0 0 10px;
+}
+.inputs :last-child{
+    width: 30%;
+    height: 30px;
+    border: none;
+    background-color: #ff0600;
+    border-radius: 0 10px 10px 0;
+}
+.reset{
+    width: 100%;
+    margin-top: 50px;
+}
+
+.reset input{
+    width: 100%;
+    height: 30px;
+    color: #fff;
+    background-color: #ff0600;
+    font-weight: bolder;
+    border: 0;
+    cursor: pointer;
+    border-radius: 10px ;
+}
+h3{
+    margin: 30px 0;
+}
+#degerlendirme{
+    color: gray;
+}
